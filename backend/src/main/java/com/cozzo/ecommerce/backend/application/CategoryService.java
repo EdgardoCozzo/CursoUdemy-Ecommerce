@@ -17,7 +17,7 @@ public class CategoryService {
     public Category findById (Integer id){
         return this.iCategoryRepository.finById(id);
     }
-    void deleteByID (Integer id){
+    public void deleteByID (Integer id){
         this.iCategoryRepository.deleteById(id);
     }
 }

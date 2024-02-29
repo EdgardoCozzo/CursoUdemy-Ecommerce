@@ -5,7 +5,7 @@ import com.cozzo.ecommerce.backend.domain.port.IProductRepository;
 import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
-public class productService {
+public class ProductService {
     private final IProductRepository iProductRepository;
 
     public Product save (Product product){

@@ -1,7 +1,7 @@
 package com.cozzo.ecommerce.backend.infrastructure.mapper;
 
 import com.cozzo.ecommerce.backend.domain.model.User;
-import com.cozzo.ecommerce.backend.infrastructure.UserEntity;
+import com.cozzo.ecommerce.backend.infrastructure.entity.UserEntity;
 import org.mapstruct.InheritConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

@@ -2,7 +2,7 @@ package com.cozzo.ecommerce.backend.infrastructure.adapter;
 
 import com.cozzo.ecommerce.backend.domain.model.User;
 import com.cozzo.ecommerce.backend.domain.port.IUserRepository;
-import com.cozzo.ecommerce.backend.infrastructure.UserEntity;
+import com.cozzo.ecommerce.backend.infrastructure.entity.UserEntity;
 import com.cozzo.ecommerce.backend.infrastructure.mapper.UserMapper;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Repository;
